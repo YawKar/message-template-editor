@@ -1,0 +1,35 @@
+.variablesList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.variableButton {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 2px transparent inset;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  font-size: 14px;
+  height: 36px;
+  line-height: 27px;
+  min-width: 54px;
+  padding: 0px 16px;
+  margin-right: 8px;
+  margin-top: 8px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+}
+
+.variableButton:hover {
+  color: #fff;
+}
+
+.variableButton:active {
+  transition: background-color 0.1s ease;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-style: dotted;
+  border-color: rgba(255, 255, 255, 0.16);
+}

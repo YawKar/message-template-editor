@@ -1,0 +1,23 @@
+.messageTemplateEditor {
+  display: flex;
+  flex-direction: column;
+  margin: 0% 0%;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 1% 15%;
+}
+
+.mainHeader {
+  font-size: 2rem;
+}
+
+.subHeader {
+  margin-top: 8px;
+  font-size: 1.5rem;
+}
+
+.sectionHeader {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 8px;
+}

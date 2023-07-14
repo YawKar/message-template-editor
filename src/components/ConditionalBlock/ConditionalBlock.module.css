@@ -1,0 +1,86 @@
+.conditionalBlock {
+  display: flex;
+}
+
+.deleteBar {
+  margin-top: 22px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.deleteButton {
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  border: 2px transparent inset;
+}
+
+.deleteButton:hover {
+  color: #fff;
+}
+
+.deleteButton:active {
+  transition: background-color 0.1s ease;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-style: dotted;
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+.longTrail {
+  width: 1px;
+  flex: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  border-color: rgba(255, 255, 255, 0.08);
+  border-style: dashed;
+  border-width: 2px;
+}
+
+.conditionalParts {
+  flex: auto;
+}
+
+.ifPart,
+.thenPart,
+.elsePart {
+  display: flex;
+  flex-direction: row;
+}
+
+.ifChildren,
+.thenChildren,
+.elseChildren {
+  flex: auto;
+}
+
+.ifWord,
+.thenWord,
+.elseWord {
+  width: 60px;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 36px;
+}
+
+.ifWord {
+  color: dodgerblue;
+}
+
+.thenWord {
+  color: blueviolet;
+}
+
+.elseWord {
+  color: lightskyblue;
+}

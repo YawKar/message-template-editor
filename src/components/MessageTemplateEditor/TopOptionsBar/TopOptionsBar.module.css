@@ -1,0 +1,45 @@
+.topOptionsBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionHeader {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-top: 8px;
+}
+
+.manipulationsHeader {
+  composes: sectionHeader;
+  text-align: right;
+}
+
+.ifThenElseButton {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 2px transparent inset;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  font-size: 14px;
+  height: 36px;
+  line-height: 27px;
+  min-width: 54px;
+  padding: 0px 16px;
+  margin-top: 8px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+}
+
+.ifThenElseButton:hover {
+  color: #fff;
+}
+
+.ifThenElseButton:active {
+  transition: background-color 0.1s ease;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-style: dotted;
+  border-color: rgba(255, 255, 255, 0.16);
+}

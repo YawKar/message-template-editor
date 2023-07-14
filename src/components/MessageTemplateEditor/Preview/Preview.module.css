@@ -1,0 +1,68 @@
+.preview {
+  display: flex;
+  flex-direction: column;
+  margin: 0% 0%;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 1% 15%;
+}
+
+.previewPanels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.compiledMessagePanel {
+  flex: 0.68;
+}
+
+.variablesObserverPanel {
+  flex: 0.3;
+}
+
+.mainHeader {
+  font-size: 2rem;
+}
+
+.subHeader {
+  margin-top: 8px;
+  font-size: 1.5rem;
+}
+
+.sectionHeader {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.closeButton {
+  width: fit-content;
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 2px transparent inset;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  font-size: 14px;
+  height: 36px;
+  line-height: 27px;
+  min-width: 54px;
+  margin-top: 20px;
+  padding: 0px 32px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+}
+
+.closeButton:hover {
+  color: #fff;
+}
+
+.closeButton:active {
+  transition: background-color 0.1s ease;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-style: dotted;
+  border-color: rgba(255, 255, 255, 0.16);
+}

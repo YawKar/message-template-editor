@@ -1,0 +1,29 @@
+.messageView {
+  height: 100%;
+  margin-top: 0px;
+}
+
+.compiledMessageArea {
+  width: 100%;
+  overflow-y: hidden;
+  outline: none;
+  resize: none;
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+.compiledMessageArea:focus {
+  outline: none;
+}
+
+.charCount {
+  text-align: right;
+  margin-right: 5px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}

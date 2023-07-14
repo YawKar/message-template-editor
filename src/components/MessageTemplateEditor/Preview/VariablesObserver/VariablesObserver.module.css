@@ -1,0 +1,26 @@
+.variablesFieldsList {
+  display: flex;
+  flex-direction: column;
+}
+
+.variableField {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.variableFieldName {
+  padding-left: 2px;
+  font-size: 1.1rem;
+}
+
+.variableFieldInput {
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.26);
+}
