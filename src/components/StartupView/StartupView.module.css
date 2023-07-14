@@ -1,0 +1,40 @@
+.startupView {
+  height: 100vh;
+}
+
+.mainInfo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.openEditorButton {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 2px transparent inset;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  font-size: 2em;
+  min-width: 54px;
+  padding: 8px 16px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+}
+
+.openEditorButton:hover {
+  color: #fff;
+}
+
+.openEditorButton:active {
+  transition: background-color 0.1s ease;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-style: dotted;
+  border-color: rgba(255, 255, 255, 0.16);
+}
