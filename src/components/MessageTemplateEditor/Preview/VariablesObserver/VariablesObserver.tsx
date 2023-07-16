@@ -12,7 +12,7 @@ const VariablesObserver: React.FC<VariablesObserverProps> = ({
   setVariablesMap: setVariablesState,
 }) => {
   function handleValueChange(variableName: string, value: string) {
-    setVariablesState({ ...variablesState, [`${variableName}`]: value });
+    setVariablesState({ ...variablesState, [variableName]: value });
   }
 
   return (
